@@ -20,10 +20,6 @@ QT -= \
     gui
 
 #+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-
-#If you want to use preinstalled dependencies instead of buildeing them set flag to 1
-DONT_BUILD_DEPS=0
-
-#+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-
 # Qt5.5.1 on OSX needs both c++11 and c++14!! the c++14 is not enough
 QMAKE_CXXFLAGS += -std=c++11 -std=c++14
 CONFIGS += c++11 c++14
