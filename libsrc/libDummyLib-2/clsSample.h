@@ -10,6 +10,7 @@
  * @author S. Mohammad M. Ziabary <ziabary@targoman.com>
  */
 #include <QSharedDataPointer>
+#include "libDummyLib-1/clsSample.h"
 
 namespace DummyLib2 {
 namespace Private {
@@ -24,6 +25,7 @@ public:
 
 public:
     QSharedDataPointer<Private::clsSamplePrivate> Data;
+    DummyLib1::clsSample SampleFromDummyLib1;
 };
 
 }

@@ -15,7 +15,8 @@
 namespace DummyLib2 {
 
 clsSample::clsSample(const QString& _sampleString) :
-    Data(new Private::clsSamplePrivate)
+    Data(new Private::clsSamplePrivate),
+    SampleFromDummyLib1("Dummy1: " + _sampleString)
 {
     this->Data->SampleString = _sampleString;
 }

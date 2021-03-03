@@ -1,3 +1,6 @@
 [submodule "3rdParty/QBuildSystem"]
 	path = 3rdParty/QBuildSystem
 	url = https://github.com/Targoman/QBuildSystem.git
+[submodule "3rdParty/DummyLib-1"]
+	path = 3rdParty/DummyLib-1
+	url = https://github.com/Targoman/QBuildSystem-dummyLib-1
